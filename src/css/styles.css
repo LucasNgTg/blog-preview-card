@@ -49,19 +49,16 @@ body {
     font-weight: 500;
 }
 
-.card .content .text a {
-    text-decoration: none;
-}
-
-.card .content .text a h1 {
+.card .content .text h1 a {
     font-size: 24px;
     line-height: 56px;
     font-weight: 800;
     color: hsl(0, 0%, 7%);
+    text-decoration: none;
     transition: .2s;
 }
 
-.card .content .text a h1:hover {
+.card .content .text h1 a:hover {
     color:hsl(47, 88%, 63%);
 }
 
