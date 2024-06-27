@@ -1,0 +1,33 @@
+@media(max-width: 425px) {
+
+    .card {
+        height: 500px;
+        width: 325px;
+    }
+
+    .card .content .img-container {
+        display: flex;
+        justify-content: center;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .card .content .topic {
+        font-size: 12px;
+        height: 25px;
+        width: 75px;
+    }
+
+    .card .content span {
+        font-size: 12px;
+    }
+
+    .card .content .text a {
+        font-size: 20px;
+    }
+
+    .card .content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

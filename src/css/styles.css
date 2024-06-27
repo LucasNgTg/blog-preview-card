@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    color: hsl(0, 0%, 7%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 384px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 8px 10px black;
+    justify-content: space-between;
+}
+
+.card span {
+    font-size: 14px;
+}
+
+.card .content .img-container img {
+    border-radius: 12px;
+}
+
+.card .content .topic {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 14px;
+    font-weight: 800;
+    height: 30px;
+    width: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 18px 0 12px;
+}
+
+.card .content span {
+    font-weight: 500;
+}
+
+.card .content .text a {
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.card .content .text a:hover {
+    color:hsl(47, 88%, 63%);
+}
+
+.card .content p {
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.card .profile-container {
+    display: flex;
+    height: 32px;
+}
+
+.card .profile-container span {
+    padding: 0 12px;
+    align-self: center;
+    font-weight: 800;
+}
+
+.attribution {
+    background-color: hsl(0, 0%, 7%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #6abecd;
+}
